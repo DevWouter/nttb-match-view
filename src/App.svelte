@@ -1,5 +1,5 @@
 <script lang="ts">
-	import CaptureWebcam from "./CaptureWebcam.svelte";
+	import Capture from "./Capture.svelte";
 	import ViewScore from "./ViewScore.svelte";
 </script>
 
@@ -17,14 +17,14 @@
 		position: absolute;
 		left: min(10vh, 10vw, 30px); 
 		bottom:  min(10vh, 10vw, 30px);
-		width: 400px;
+		width: 450px;
 		max-width: 80vw;
 	}
 </style>
 
 <main>
 	<div class="background">
-		<CaptureWebcam />
+		<Capture />
 	</div>
 
 	<div class="foreground">

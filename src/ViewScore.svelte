@@ -2,7 +2,7 @@
     .container {
         background-color: rgb(240, 240,240);
         display: grid;
-        grid-template-columns: 90px 1fr 30px 30px;
+        grid-template-columns: 90px 1fr 40px 40px;
         grid-template-areas:
             "set title  match-score match-score"
             "p1name p1name p1gamescore p1setscore"
@@ -24,6 +24,7 @@
 
     .set {
         grid-area: set;
+        padding-right: 20px;
     }
 
     .title {
@@ -32,6 +33,7 @@
     }
     .match-score {
         grid-area: match-score;
+        padding-left: 20px;
     }
     .player1.name {
         grid-area: p1name;
