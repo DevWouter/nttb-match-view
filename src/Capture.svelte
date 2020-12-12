@@ -71,7 +71,7 @@
         box-shadow: 0 0 5px silver;
         max-width: 500px;
     }
-    .capture-buttons{
+    .capture-buttons {
         display: grid;
         margin: auto;
         grid-template-columns: 1fr 1fr;
@@ -81,10 +81,7 @@
 
 <div class="container">
     {#if mode == 'display'}
-        <video autoplay id="videoElement">
-            <track kind="captions" />
-            <p>Hello</p>
-        </video>
+        <video autoplay id="videoElement" />
     {:else if mode == 'instructions'}
         <div class="instructions">
             <h1>NTTB Wedstrijd overlay</h1>
